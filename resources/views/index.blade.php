@@ -24,6 +24,7 @@
 
     <!-- Theme CSS -->
     <link href="{{url('css/agency.min.css')}}" rel="stylesheet">
+    <link href="{{url('css/webcss.css')}}" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -58,9 +59,6 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#values">Our Core Values</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">Get to Know Us</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#products">Products and Services</a>
@@ -150,81 +148,51 @@
     </section>
 
     <!-- About Section -->
-    <section id="about">
+    <section id="products">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Products and Services</h2>
+                    {{--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>--}}
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
-                            </div>
-                        </li>
-                    </ul>
+            <div class="row" style="margin-left: 5%;margin-right: 5%">
+                <div class="row">
+                    <h2>SOLAR POWER SYSTEMS</h2>
+                    <img src="{{url('img/sp.gif')}}" class="imgf" style="text-align: center">
+                    <div class="col-lg-6 text-muted pull-right">
+                        We use nature’s free light energy from the sun to provide electricity to all forms of requirements. Our solar power systems are sourced form highly accredited European supply markets of Germany and Denmark. The solar power systems are provided on warranty terms carried by the manufacturer and adequately enforced by the SEL able technical department. Systems and products in this category include off grid power solutions, grid tie solar power solutions and backup power solutions on turnkey arrangements. Other products provided on individuality include high quality solar panels, reliable batteries, charge controllers and inverters.
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <h2>INVERTER POWER BACKUP SYSTEM</h2>
+                    <img src="{{url('img/inverter.jpg')}}" class="imgf" style="text-align: center">
+                    <div class="col-lg-6 text-muted pull-left">
+                        This system allows you to enjoy uninterrupted power supply all the times and hence allow one to carry out daily functions without fearing for power cuts & drips. They are noiseless and gives out back up power automatically without the input of a technician once installed. They’re suitable for domestic and medium to high commercial applications.
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <h2>WATER HEATING SYSTEMS</h2>
+                    <img src="{{url('img/waterheating.jpg')}}" class="imgf" style="text-align: center">
+                    <div class="col-lg-6 text-muted pull-right">
+                        We provide both flat plate and evacuated tube solar water heating systems to meet both individual and commercial hot water requirements. Our systems are sourced form high standardized European markets and are supported by local highly trained technical work force for installation and maintenance services. These systems enables one to save up 65% of water heating electricity bills using free heat energy from the sun.
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <h2>LED LIGHTING SOLUTIONS</h2>
+                    <img src="{{url('img/led_ligting.jpg')}}" class="imgf" style="text-align: center">
+                    <div class="col-lg-6 text-muted pull-left">
+
+
+                        These are light fittings that use semiconductor chips to produce high quality light at low power consumption.<br>
+
+                        They are long lasting, heat resistant and can be used in all varieties of lighting requirements i.e. indoor, security lighting, office lighting, entertainment etc.<br>
+
+                        They consume up to 75% less power and lasts up to 5 times more than the current conventional lighting hence making them the current choice of light fittings for both domestic, commercial and industrial applications. SEL supplies, installs and maintains high quality lights in partnership with the European partners. LED tubes, bulbs, down lights and flood lights are available at variety choices as per clients lighting requirements.
+                    </div>
                 </div>
             </div>
         </div>

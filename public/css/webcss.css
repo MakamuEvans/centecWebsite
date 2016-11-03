@@ -1,0 +1,15 @@
+
+@media (max-width: 599px) {
+
+    .imgf{
+        width: 150%;
+        height: auto;
+    }
+}
+
+.imgf{
+    max-height: 300px;
+    overflow-y: hidden;
+    height: auto;
+    width: 50%;
+}
