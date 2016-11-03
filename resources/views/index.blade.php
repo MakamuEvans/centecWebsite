@@ -78,9 +78,13 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="profile" class="page-scroll btn btn-xl">Tell Me More</a>
+                <div class="intro-lead-in">Welcome To Sentimental Energy</div>
+                <div class="intro-heading">
+                    <h3>
+                    Quality products and services Informative and educative Professionalism in services delivery Reliability in supplies Deliveries and follow ups Dependable workmanship in all projects undertaken.
+                    </h3>
+                </div>
+                <a href="#profile" class="page-scroll btn btn-xl">Who we Are</a>
             </div>
         </div>
     </header>
