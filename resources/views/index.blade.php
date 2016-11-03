@@ -20,6 +20,7 @@
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
 
     <!-- Theme CSS -->
     <link href="{{url('css/agency.min.css')}}" rel="stylesheet">
@@ -53,7 +54,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#profile">Our Profile</a>
+                        <a class="page-scroll" href="#profile">Who We Are</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#values">Our Core Values</a>
@@ -77,13 +78,16 @@
     <!-- Header -->
     <header>
         <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Sentimental Energy</div>
-                <div class="intro-heading">
-                    <h3>
-                    Quality products and services Informative and educative Professionalism in services delivery Reliability in supplies Deliveries and follow ups Dependable workmanship in all projects undertaken.
-                    </h3>
+            <div class="intro-text" >
+                <div style="background-color: rgba(0,0,0,0.5)">
+                    <div class="intro-lead-in">Welcome To Sentimental Energy</div>
+                    <div class="intro-heading" style="color:#fed136;">
+                        <h3>
+                            Quality products and services Informative and educative Professionalism in services delivery Reliability in supplies Deliveries and follow ups Dependable workmanship in all projects undertaken.
+                        </h3>
+                    </div>
                 </div>
+
                 <a href="#profile" class="page-scroll btn btn-xl">Who we Are</a>
             </div>
         </div>
@@ -95,12 +99,12 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Our Profile</h2>
-                    <h3 class="section-subheading text-muted">
+                    <h2 class="section-subheading text-muted" style="font-size: 15px">
 					
-					SENTCO. Ltd is a duly registered company in Kenya since 2012 and was incorporated in the year 2016. It was formed out of a desire to provide low cost energy solutions to the region’s domestic, commercial and industrialization sector with emphasis on solar energy and low load consuming Lighting solutions. We design, develop, install and maintain solar power, solar water heating and power back up systems and LED lighting solutions. We are also involved massively in sales and distribution of solar panels, charge controllers, inverters , batteries and LED lights. The company has over 4 years of experience in the renewable energy industry centered on actual hands on experiences in design, sizing, installation and commissioning, energy audit and management.<br>
+					SENTCO. Ltd is a duly registered company in Kenya since 2012 and was incorporated in the year 2016. It was formed out of a desire to provide low cost energy solutions to the region’s domestic, commercial and industrialization sector with emphasis on solar energy and low load consuming Lighting solutions. We design, develop, install and maintain solar power, solar water heating and power back up systems and LED lighting solutions. We are also involved massively in sales and distribution of solar panels, charge controllers, inverters , batteries and LED lights. The company has over 4 years of experience in the renewable energy industry centered on actual hands on experiences in design, sizing, installation and commissioning, energy audit and management.<br><br>
 					SENTCO. is owned by a team of professionals with competent skills and experience in their respective fields of, energy systems design, installation and management, financial project management and sales.
 
-					</h3>
+					</h2>
                 </div>
             </div>
             
@@ -120,7 +124,7 @@
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-rocket fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Mission Statement</h4>
                     <p class="text-muted">To create social economic opportunities to our clients through provision of cheap, sustainable and reliable energy solutions.</p>
@@ -128,7 +132,7 @@
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-user fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Customer Care Policy Statement</h4>
                     <p class="text-muted">Be the primary resource for providing clients with information in renewable energy, energy cost management and savings while backed </p>
@@ -136,7 +140,7 @@
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-flag fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Vision Statement</h4>
                     <p class="text-muted">Reliable cheap energy for all.</p>
@@ -367,7 +371,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Your Website 2016</span>
+                    <span class="copyright">Copyright &copy; Sentimental Energy</span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
@@ -383,7 +387,7 @@
                     <ul class="list-inline quicklinks">
                         <li><a href="#">Privacy Policy</a>
                         </li>
-                        <li><a href="#">Terms of Use</a>
+                        <li><a href="#">Terms and Conditions</a>
                         </li>
                     </ul>
                 </div>
