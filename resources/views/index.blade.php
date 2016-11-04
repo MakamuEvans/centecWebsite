@@ -199,7 +199,7 @@
     </section>
 
     <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
+    {{--<section id="team" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -288,7 +288,7 @@
                 </div>
             </div>
         </div>
-    </aside>
+    </aside>--}}
 
     <!-- Contact Section -->
     <section id="contact">
@@ -296,7 +296,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Email Us. <h6>(* required)</h6></h3>
                 </div>
             </div>
             <div class="row">
@@ -361,8 +361,6 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
                         <li><a href="#">Terms and Conditions</a>
                         </li>
                     </ul>
