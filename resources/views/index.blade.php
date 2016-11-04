@@ -338,6 +338,14 @@
     <footer>
         <div class="container">
             <div class="row">
+                <a href="mailto:info@sentecltd.com">info@sentecltd.com</a>  |
+                SILKWOOD office suite,
+                5th floor,
+                ngong road,
+                Nairobi Kenya |
+                +254-725 445459 , 0738261640
+            </div>
+            <div class="row">
                 <div class="col-md-4">
                     <span class="copyright">Copyright &copy; Sentimental Energy</span>
                 </div>
