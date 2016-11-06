@@ -11,7 +11,7 @@
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Sentimental Energy">
-    <meta name="twitter:description" content="{{$description}}">
+    <meta name="twitter:description" content="">
     <meta name="twitter:image:src" content="">
     <meta name="twitter:domain" content="http://www.sentecltd.com">
 
@@ -78,6 +78,19 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact Us</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            Solar Explained <span class="caret"></span>
+                        </a>
+
+                        <ul class="dropdown-menu" role="menu" style="background-color: blue">
+                            <li class="pull-right athe">
+                                <a href="{{url('')}}">How Solar Works</a>
+                                <a href="{{url('')}}">The PV Model</a>
+                                <a href="{{url('')}}">Why Go Solar</a>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </div>
