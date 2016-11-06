@@ -9,6 +9,19 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sentimental Energy">
+    <meta name="twitter:description" content="{{$description}}">
+    <meta name="twitter:image:src" content="">
+    <meta name="twitter:domain" content="http://www.sentecltd.com">
+
+    <meta property="og:title" content="Sentimental Energy" />
+    <meta property="og:image" content="" />
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:url" content="http://www.sentecltd.com" />
+    <meta property="og:description" content="" />
+
     <title>Sentimental Energy</title>
 
     <!-- Bootstrap Core CSS -->
