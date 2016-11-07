@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('body');
 });
 
 Route::any('sendmail', 'MailController@mail');
