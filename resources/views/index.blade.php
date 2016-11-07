@@ -68,7 +68,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#profile">Who We Are</a>
+                        <a class="page-scroll" href="#profile">About Us</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#values">Our Core Values</a>
@@ -119,16 +119,15 @@
 
     <!-- Services Section -->
     <section id="profile">
-        <div class="container">
+        <div class="container" style="margin-top: 0%">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Profile</h2>
-                    <h2 class="section-subheading text-muted" style="font-size: 15px">
-					
-					SENTCO. Ltd is a duly registered company in Kenya since 2012 and was incorporated in the year 2016. It was formed out of a desire to provide low cost energy solutions to the region’s domestic, commercial and industrialization sector with emphasis on solar energy and low load consuming Lighting solutions. We design, develop, install and maintain solar power, solar water heating and power back up systems and LED lighting solutions. We are also involved massively in sales and distribution of solar panels, charge controllers, inverters , batteries and LED lights. The company has over 4 years of experience in the renewable energy industry centered on actual hands on experiences in design, sizing, installation and commissioning, energy audit and management.<br><br>
-					SENTCO. is owned by a team of professionals with competent skills and experience in their respective fields of, energy systems design, installation and management, financial project management and sales.
+                    <h2 class="section-heading">About Us</h2>
+                    <p class="section-subheading text-muted" style="font-size: 15px">
 
-					</h2>
+                        Sentimental Energy Company Ltd (SENTEC) is a duly registered company in Kenya since 2012 and was incorporated in the year 2016. It was formed out of a desire to provide low cost energy solutions to the region’s domestic, commercial and industrialization sector with emphasis on solar energy and low load consuming Lighting solutions. We design, develop, install and maintain solar power, solar water heating, power back up systems and LED lighting solutions. We are also involved massively in sales and distribution of solar panels, charge controllers, inverters, batteries and LED lights. The company has over four years of experience in the renewable energy industry centered on actual hands on experiences in design, sizing, installation and commissioning, energy audit and management.<br><br>
+                        SENTEC is owned by a team of professionals with competent skills and experience in their respective fields of energy systems design, installation and management, financial project management and sales. Our mission is to become the leader in the alternative energy movement that takes place in the region with emphasis on the low cost affordable sustainable and reliable solar power, water heating and LED lighting solutions. The objective is to be the primary resource for providing consumers with the information they need in renewable energy, energy management and energy saving while providing quality services backed by quality products and workmanship. This sums up our customer care management policy.
+					</p>
                 </div>
             </div>
             
@@ -136,7 +135,7 @@
     </section>
 
     <!-- Portfolio Grid Section -->
-    <section id="values" class="bg-light-gray">
+    <section id="values" class="bg-light-gray" style="padding-top: 50px">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -168,6 +167,28 @@
                     </span>
                     <h4 class="service-heading">Vision Statement</h4>
                     <p class="text-muted">Reliable cheap energy for all.</p>
+                </div>
+            </div>
+
+            <div class="row text-center" style="margin-top: 50px">
+                <div class="row">
+                    <h4 class="service-heading">We Believe In</h4>
+                    <hr>
+                </div>
+                <div class="col-md-4">
+                    <p class="text-muted"><i class="fa fa-check-square-o fa-2x"></i>Quality products and services</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="text-muted"><i class="fa fa-check-square-o"></i>Informative and educative</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="text-muted"><i class="fa fa-check-square-o"></i>Professionalism in services delivery.</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="text-muted"><i class="fa fa-check-square-o"></i>Reliability in supplies, deliveries and follow ups</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="text-muted"><i class="fa fa-check-square-o"></i>Dependable workmanship in all projects undertaken.</p>
                 </div>
             </div>
         </div>
