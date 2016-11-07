@@ -33,8 +33,8 @@
 
                     <ul class="dropdown-menu" role="menu" style="background-color: blue">
                         <li class="pull-right athe">
-                            <a href="{{url('')}}">How Solar Works</a>
-                            <a href="{{url('')}}">The PV Model</a>
+                            <a href="{{url('how-solar-works')}}">How Solar Works</a>
+                            <a href="{{url('the-pv-module')}}">The PV Model</a>
                             <a href="{{url('')}}">Why Go Solar</a>
                         </li>
                     </ul>

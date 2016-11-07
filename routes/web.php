@@ -14,5 +14,11 @@
 Route::get('/', function () {
     return view('body');
 });
+Route::get('how-solar-works', function () {
+    return view('how');
+});
+Route::get('the-pv-module', function () {
+    return view('pv');
+});
 
 Route::any('sendmail', 'MailController@mail');
