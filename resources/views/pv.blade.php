@@ -1,11 +1,9 @@
 @extends('layout')
 @section('content')
 <!-- Header -->
-<container>
-    <div class="row" style="margin-top: 150px;margin-left: 10px;margin-right: 10px;text-align: center">
-        <h2 class="text-muted">OFF GRID AND HYBRID SOLAR POWER SYSTEMS</h2>
-    </div>
-    <div class="col-md-10 col-md-offset-1">
+    <div class="col-md-10 col-md-offset-1" style="background-color: white">
+        <div class="row" style="margin-top: 150px;margin-left: 10px;margin-right: 10px">
+        <h2 class="text-muted" style="text-align: center">OFF GRID AND HYBRID SOLAR POWER SYSTEMS</h2>
         <h4 style="color: #fed136;">Off-Grid PV Systems</h4>
         <p class="text-muted">
             As  the  name  implies,  are  systems  that  are  not  connected  to  the  public  electricity  grid.  These
@@ -58,6 +56,6 @@
         <div class="col-md-6">
             <img src="{{url('img/offgrid.png')}}">
         </div>
+        </div>
     </div>
-</container>
 @endsection

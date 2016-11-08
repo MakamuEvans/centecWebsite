@@ -1,8 +1,7 @@
 @extends('layout')
 @section('content')
 <!-- Header -->
-<container>
-    <div class="col-md-10 col-md-offset-1">
+    <div class="col-md-10 col-md-offset-1" style="background-color: white">
         <div class="row" style="margin-top: 150px;margin-left: 10px;margin-right: 10px;">
             <h2 class="section-heading" style="text-align: center">Products and Services</h2>
             <div class="row">
@@ -45,5 +44,5 @@
             </div>
         </div>
     </div>
-</container>
+
 @endsection

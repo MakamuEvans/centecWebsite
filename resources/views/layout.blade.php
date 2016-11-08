@@ -48,7 +48,7 @@
 
 </head>
 
-<body id="page-top" class="index">
+<body id="page-top" class="index" style="background-color: grey">
 
 <!-- Navigation -->
 @include('nav2')

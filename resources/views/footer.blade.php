@@ -1,5 +1,11 @@
-<footer style="background-color: grey;padding-top: 0%;padding-bottom: 0%;text-align: center">
+<footer style="padding-top: 0%;padding-bottom: 0%;text-align: center;background-color: grey">
     <div class="row" style="margin-left: 10px;padding-top: 5%;padding-bottom: 5%">
+        <div class="col-md-6">
+            <hr>
+        </div>
+        <div class="col-md-6" style="padding-right: 10px">
+            <hr>
+        </div>
         <div class="col-md-4" style="color: white">
             SILKWOOD office suite, <br>
             5th floor,<br>
