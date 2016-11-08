@@ -23,5 +23,5 @@ Route::get('the-pv-module', function () {
 Route::get('products-and-services', function () {
     return view('products');
 });
-
+Route::any('view/brochure', 'MailController@brochure');
 Route::any('sendmail', 'MailController@mail');

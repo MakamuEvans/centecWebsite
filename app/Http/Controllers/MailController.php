@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Response;
 
 class MailController extends Controller
 {
@@ -22,5 +23,14 @@ class MailController extends Controller
         mail($to,$email_subject,$email_body,$headers);
         return true;
 
+    }
+    public function brochure(){
+        $filename = 'bronchure.pdf';
+        $path = url('img/bronchure.pdf');
+
+        return Response::make(file_get_contents($path), 200, [
+            'Content-Type' => 'application/pdf',
+            'Content-Disposition' => 'inline; filename="'.$filename.'"'
+        ]);
     }
 }
