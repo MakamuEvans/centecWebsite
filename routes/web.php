@@ -20,5 +20,8 @@ Route::get('how-solar-works', function () {
 Route::get('the-pv-module', function () {
     return view('pv');
 });
+Route::get('products-and-services', function () {
+    return view('products');
+});
 
 Route::any('sendmail', 'MailController@mail');

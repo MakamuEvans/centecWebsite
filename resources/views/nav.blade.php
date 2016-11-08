@@ -21,10 +21,10 @@
                     <a class="page-scroll" href="#values">Our Core Values</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#products">Products and Services</a>
+                    <a class="page-scroll" href="#contact">Contact Us</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">Contact Us</a>
+                    <a class="page-scroll" href="{{url('products-and-services')}}">Products and Services</a>
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
