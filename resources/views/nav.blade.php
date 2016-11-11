@@ -5,7 +5,9 @@
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand page-scroll" href="{{url('/#page-top')}}">Sentimental Energy</a>
+            <a class="navbar-brand page-scroll navw" href="{{url('/#page-top')}}" style="margin-bottom: 10px">
+            <img src="{{url('img/logo.png')}}" class="logo">
+            </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->

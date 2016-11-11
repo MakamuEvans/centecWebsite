@@ -4,7 +4,12 @@
     <div class="col-md-10 col-md-offset-1" style="background-color: white">
         <div class="row" style="margin-top: 150px;margin-left: 10px;margin-right: 10px;">
             <div class="col-md-8">
-            <h2 class="section-heading" style="text-align: center">Products and Services</h2>
+                <div class="row">
+                    <ol class="breadcrumb" style="margin-bottom: 0%">
+                        <li><a href="{{url('/')}}">Home</a></li>
+                        <li><a href="#">Products and Services</a></li>
+                    </ol>
+                </div>
             <div class="row">
                 <h3 style="color: #fed136">SOLAR POWER SYSTEMS</h3>
                 <div class="row">
@@ -32,7 +37,7 @@
                     <div class="col-md-6">
                         <img src="{{url('img/inverter.jpg')}}" class="imgf" style="text-align: center">
                     </div>
-                    This system allows you to enjoy uninterrupted power supply all the times and hence allow one to carry out daily functions without fearing for power cuts & drips. They are noiseless and gives out back up power automatically without the input of a technician once installed. They’re suitable for domestic and medium to high commercial applications.
+                    This system allows you to enjoy uninterrupted power supply all the times and hence allow one to carry out daily functions without fearing for power cuts & trips. They are noiseless and gives out back up power automatically without the input of a technician once installed. They’re suitable for domestic and medium to high commercial applications.
                 </div>
             </div>
             <hr>

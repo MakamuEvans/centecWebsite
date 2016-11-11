@@ -3,6 +3,14 @@
         <!-- Header -->
     <div class="col-md-10 col-md-offset-1" style="background-color: white">
     <div class="row" style="margin-top: 150px;margin-left: 10px;margin-right: 10px;text-align: center">
+        <div class="col-md-8">
+            <div class="row" style="text-align: left">
+                <ol class="breadcrumb" style="margin-bottom: 0%">
+                    <li><a href="{{url('/')}}">Home</a></li>
+                    <li><a href="#">Solar Explained</a></li>
+                    <li><a href="#">How Sunlight is converted to Solar</a></li>
+                </ol>
+            </div>
         <h2 class="text-muted">How SunLight is converted to Solar Energy</h2>
         <p class="text-muted">
             Photovoltaic systems are solar energy supply systems that convert sunlight directly to electricity.
@@ -38,25 +46,10 @@
             applications  are  employed  in  off-grid  rural  electrification  projects  to  rural  communities  (for
             lighting, educational and health applications) that are far from the national grid.
         </p>
-    </div>
-        <div class="col-md-10 col-md-offset-1" style="margin-bottom: 20px">
-            <hr style="color: black">
-            <div class="row" style="text-align: center">
-                Read More...
-            </div>
-            <div class="col-md-4" style="font-size: 150%;">
-                <a href="{{url('the-pv-module')}}">
-                    <button class="" style="border:1px solid green;background-color: white">The PV System.</button>
-                </a>
-            </div>
-            <div class="col-md-4" style="font-size: 150%;">
-                <a href="{{url('#')}}">
-                    <button class="" style="border:1px solid green;background-color: white">Why Go Solar?</button>
-                </a>
-            </div>
-            <div class="col-md-4">
-
-            </div>
         </div>
+        <div class="col-md-4">
+            @include('sidebar')
+        </div>
+    </div>
     </div>
 @endsection

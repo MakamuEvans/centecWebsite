@@ -1,11 +1,13 @@
-<nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top" style="background-color: black">
+<nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top" style="background-color: green">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand page-scroll" href="{{url('/#page-top')}}">Sentimental Energy</a>
+            <a class="navbar-brand page-scroll navw" href="{{url('/#page-top')}}" style="margin-bottom: 10px">
+                <img src="{{url('img/logo.png')}}" class="logo">
+            </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
