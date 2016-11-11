@@ -33,3 +33,51 @@
 .navw{
     width: 280px;
 }
+#fixedsocial {
+    top:30%;
+    height:200px;
+    width:60px;
+    position:fixed;
+    z-index: 10000;
+}
+
+.facebookflat {
+    background:url("http://placehold.it/50x50");
+    height:50px;
+    width:50px;
+    transition:ease 500ms;
+    background-size:50px;
+    opacity:1;
+}
+
+.facebookflat:hover {
+    background:url("http://placehold.it/50x50");
+    height:50px;
+    width:50px;
+    background-size:60px;
+    opacity:0.5;
+    transition:ease 500ms;
+    margin-left:-20px;
+    width:70px;
+
+}
+
+.twitterflat {
+    background:url("http://placehold.it/50x50");
+    height:50px;
+    width:50px;
+    transition:ease 500ms;
+    background-size:50px;
+    opacity:1;
+}
+
+.twitterflat:hover {
+    background:url("http://placehold.it/50x50");
+    height:50px;
+    width:50px;
+    background-size:60px;
+    opacity:0.5;
+    transition:ease 500ms;
+    margin-left:-20px;
+    width:70px;
+}

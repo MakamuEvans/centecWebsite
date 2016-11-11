@@ -49,7 +49,18 @@
 </head>
 
 <body id="page-top" class="index">
-
+<div id="fixedsocial">
+    <div class="facebookflat">
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{Request::fullUrl()}}" target="_blank">
+            <img src="{{ url('img/fb50.png') }}">
+        </a>
+    </div>
+    <div class="twitterflat">
+        <a href="https://twitter.com/share" target="_blank">
+            <img src="{{ url('img/tw50.png') }}">
+        </a>
+    </div>
+</div>
     <!-- Navigation -->
     @include('nav')
     <!-- Header -->

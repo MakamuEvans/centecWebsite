@@ -18,7 +18,9 @@
         </div>
         <div class="col-md-4">
                 <div class="row">
-                    <a href="{{url('view/brochure')}}">Download our Brochure</a><br><br>
+                    <h4>Downloads</h4>
+                    <a href="{{url('download/brochure')}}">Our Brochure</a><br><br>
+                    <a href="{{url('download/water-heating-catalog')}}">Water Heating Catalogue</a><br><br>
                 </div>
                 <ul class="list-inline social-buttons">
                     <li><a href="#"><i class="fa fa-twitter"></i></a>

@@ -33,7 +33,7 @@
                         Solar Explained <span class="caret"></span>
                     </a>
 
-                    <ul class="dropdown-menu" role="menu" style="background-color: blue">
+                    <ul class="dropdown-menu" role="menu" style="background-color: green">
                         <li class="pull-right athe">
                             <a href="{{url('how-solar-works')}}">How Solar Works</a>
                             <a href="{{url('the-pv-module')}}">The PV System</a>

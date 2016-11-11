@@ -35,8 +35,8 @@
             consumer  load.<br>
         </p>
         <div class="row">
-            <div class="col-md-6">
-                <img src="{{url('img/offgrid.png')}}">
+            <div class="row" style="max-width: 100%">
+                <img src="{{url('img/offgrid.png')}}" width="100%" height="auto">
             </div>
         </div>
         <div class="row">
@@ -61,8 +61,8 @@
             <b>Central Hybrid </b>-connected PV applications have capacities ranging from   kilowatts to  megawatts
             range.<br>
         </p>
-        <div class="col-md-6">
-            <img src="{{url('img/offgrid.png')}}">
+        <div class="row" style="max-width: 100%;overflow-x: hidden">
+            <img src="{{url('img/offgrid.png')}}" width="100%" height="auto">
         </div>
             </div>
             <div class="col-md-4">

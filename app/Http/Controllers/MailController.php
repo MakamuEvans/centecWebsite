@@ -33,4 +33,13 @@ class MailController extends Controller
             'Content-Disposition' => 'inline; filename="'.$filename.'"'
         ]);
     }
+    public function catalog(){
+        $filename = 'solarcatalog.pdf';
+        $path = url('img/solarcatalog.pdf');
+
+        return Response::make(file_get_contents($path), 200, [
+            'Content-Type' => 'application/pdf',
+            'Content-Disposition' => 'inline; filename="'.$filename.'"'
+        ]);
+    }
 }
