@@ -15,13 +15,13 @@
                     <a href="#page-top"></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="{{url('/#profile')}}">About Us</a>
+                    <a class="page-scroll" href="#profile">About Us</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="{{url('/#values')}}">Our Core Values</a>
+                    <a class="page-scroll" href="#values">Our Core Values</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="{{url('/#contact')}}">Contact Us</a>
+                    <a class="page-scroll" href="#contact">Contact Us</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="{{url('products-and-services')}}">Products and Services</a>

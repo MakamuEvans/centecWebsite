@@ -58,7 +58,7 @@
     @include('footer')
 
     <!-- jQuery -->
-    <script src="{{url('/lib/jquery/jquery.js')}}"></script>
+    <script src="{{url('lib/jquery/jquery.js')}}"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="{{url('lib/bootstrap/js/bootstrap.min.js')}}"></script>

@@ -58,7 +58,7 @@
                         <i class="fa fa-user fa-stack-1x fa-inverse"></i>
                     </span>
                 <h4 class="service-heading">Customer Care Policy Statement</h4>
-                <p class="text-muted">Be the primary resource for providing clients with information in renewable energy, energy cost management and savings while backed </p>
+                <p class="text-muted">To be the primary resource for providing clients with information in renewable energy, energy cost management and savings while backed by quality products and services towards reducing electricity cost by 50%.</p>
             </div>
             <div class="col-md-4">
                     <span class="fa-stack fa-4x">
