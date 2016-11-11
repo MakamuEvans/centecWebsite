@@ -2,7 +2,7 @@
 @section('content')
         <!-- Header -->
 <div class="col-md-10 col-md-offset-1" style="background-color: white">
-    <div class="row" style="margin-top: 150px;margin-left: 10px;margin-right: 10px">
+    <div class="row hait" style="margin-left: 10px;margin-right: 10px">
         <div class="col-md-8">
             <div class="row" style="text-align: left">
                 <ol class="breadcrumb" style="margin-bottom: 0%">
