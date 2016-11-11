@@ -11,7 +11,7 @@
                     <li><a href="#">How Sunlight is converted to Solar</a></li>
                 </ol>
             </div>
-        <h2 class="text-muted">How SunLight is converted to Solar Energy</h2>
+        <h2 class="text-muted">How SunLight is converted to Electricity</h2>
         <p class="text-muted">
             Photovoltaic systems are solar energy supply systems that convert sunlight directly to electricity.
             The  chief  component  of  a  PV  system  is  the  solar  panel  which  is  formed  by  putting  together

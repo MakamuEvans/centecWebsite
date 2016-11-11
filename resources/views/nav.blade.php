@@ -12,7 +12,7 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right" style="font-size: 11px;font-stretch: expanded">
                 <li class="hidden">
                     <a href="#page-top"></a>
                 </li>
@@ -26,6 +26,9 @@
                     <a class="page-scroll" href="#contact">Contact Us</a>
                 </li>
                 <li>
+                    <a class="page-scroll" href="{{url('partners')}}">Our Partners</a>
+                </li>
+                <li>
                     <a class="page-scroll" href="{{url('products-and-services')}}">Products and Services</a>
                 </li>
                 <li class="dropdown">
@@ -37,7 +40,7 @@
                         <li class="pull-right athe">
                             <a href="{{url('how-solar-works')}}">How Solar Works</a>
                             <a href="{{url('the-pv-module')}}">The PV System</a>
-                            <a href="{{url('')}}">Why Go Solar</a>
+                            <a href="{{url('why-go-solar')}}">Why Go Solar</a>
                         </li>
                     </ul>
                 </li>

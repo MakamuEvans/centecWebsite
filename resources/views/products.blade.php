@@ -13,11 +13,21 @@
             <div class="row">
                 <h3 style="color: #fed136">SOLAR POWER SYSTEMS</h3>
                 <div class="row">
-                    <div class="col-md-6">
-                        <img src="{{url('img/sp.gif')}}" class="imgf" style="text-align: center">
-                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="{{url('img/sp.gif')}}" class="imgf" style="text-align: center">
+                        </div>
                     We use nature’s free light energy from the sun to provide electricity to all forms of requirements. Our solar power systems are sourced from highly accredited European supply markets of Germany and Denmark. The solar power systems are provided on warranty terms carried by the manufacturer and adequately enforced by the SENTEC  able technical team.<br><br>
+                    </div>
                     Systems and products in this category include off grid power solutions, grid tie solar power solutions and backup power solutions on turnkey arrangements. Other products provided on individuality include high quality solar panels, reliable batteries, charge controllers and inverters.
+                    <div class="row" style="margin-top: 20px">
+                        <div class="col-md-6">
+                            <img src="{{url('img/batteries.jpg')}}" class="imgf" style="text-align: center;height: 100px;width: auto">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{url('img/inverters.jpg')}}" class="imgf" style="text-align: center;height: 100px;width: auto">
+                        </div>
+                    </div>
                 </div>
             </div>
             <hr>

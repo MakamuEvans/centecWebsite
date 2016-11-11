@@ -20,6 +20,12 @@ Route::get('how-solar-works', function () {
 Route::get('the-pv-module', function () {
     return view('pv');
 });
+Route::get('partners', function () {
+    return view('partners');
+});
+Route::get('why-go-solar', function () {
+    return view('why');
+});
 Route::get('products-and-services', function () {
     return view('products');
 });
