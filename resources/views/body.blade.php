@@ -19,7 +19,7 @@
 
 <!-- Services Section -->
 <section id="profile">
-    <div class="container" style="margin-top: 0%">
+    <div class="container" style="margin-top: 0%;">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading" style="color: green;">About Us</h2>
