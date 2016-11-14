@@ -11,16 +11,16 @@
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Sentimental Energy">
-    <meta name="twitter:description" content="">
-    <meta name="twitter:image:src" content="">
+    <meta name="twitter:description" content="Cheap Reliable Energy In Kenya">
+    <meta name="twitter:image:src" content="{{url('img/solar-panel.jpg')}}">
     <meta name="twitter:domain" content="http://www.sentecltd.com">
 
     <meta property="og:title" content="Sentimental Energy" />
-    <meta property="og:image" content="" />
+    <meta property="og:image" content="{{url('img/solar-panel.jpg')}}" />
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="1200">
     <meta property="og:url" content="http://www.sentecltd.com" />
-    <meta property="og:description" content="" />
+    <meta property="og:description" content="Cheap reliable Energy in Kenya" />
 
     <title>Sentimental Energy</title>
 

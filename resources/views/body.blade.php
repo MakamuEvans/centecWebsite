@@ -22,7 +22,7 @@
     <div class="container" style="margin-top: 0%">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">About Us</h2>
+                <h2 class="section-heading" style="color: green;">About Us</h2>
                 <p class="section-subheading text-muted" style="font-size: 15px">
 
                     Sentimental Energy Company Ltd (SENTEC) is a duly registered company in Kenya since 2012 and was incorporated in the year 2016. It was formed out of a desire to provide low cost energy solutions to the region’s domestic, commercial and industrialization sector with emphasis on solar energy and low load consuming Lighting solutions. We design, develop, install and maintain solar power, solar water heating, power back up systems and LED lighting solutions. We are also involved massively in sales and distribution of solar panels, charge controllers, inverters, batteries and LED lights. The company has over four years of experience in the renewable energy industry centered on actual hands on experiences in design, sizing, installation and commissioning, energy audit and management.<br><br>
@@ -39,7 +39,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Our Core Values</h2>
+                <h2 class="section-heading" style="color: green">Our Core Values</h2>
 
             </div>
         </div>
@@ -49,7 +49,7 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-rocket fa-stack-1x fa-inverse"></i>
                     </span>
-                <h4 class="service-heading">Mission Statement</h4>
+                <h4 class="service-heading" style="color: green">Mission Statement</h4>
                 <p class="text-muted">To create social economic opportunities to our clients through provision of cheap, sustainable and reliable energy solutions.</p>
             </div>
             <div class="col-md-4">
@@ -57,7 +57,7 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-user fa-stack-1x fa-inverse"></i>
                     </span>
-                <h4 class="service-heading">Customer Care Policy Statement</h4>
+                <h4 class="service-heading" style="color: green">Customer Care Policy Statement</h4>
                 <p class="text-muted">To be the primary resource for providing clients with information in renewable energy, energy cost management and savings while backed by quality products and services towards reducing electricity cost by 50%.</p>
             </div>
             <div class="col-md-4">
@@ -65,30 +65,30 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-flag fa-stack-1x fa-inverse"></i>
                     </span>
-                <h4 class="service-heading">Vision Statement</h4>
+                <h4 class="service-heading" style="color: green">Vision Statement</h4>
                 <p class="text-muted">Reliable cheap energy for all.</p>
             </div>
         </div>
 
         <div class="row text-center" style="margin-top: 50px">
             <div class="row">
-                <h4 class="service-heading">We Believe In</h4>
+                <h4 class="service-heading" style="color: green">We Believe In</h4>
                 <hr>
             </div>
             <div class="col-md-4">
-                <p class="text-muted"><i class="fa fa-check-square-o fa-2x"></i>Quality products and services</p>
+                <p class="text-muted"><i class="fa fa-check-square-o fa-2x gr"></i>Quality products and services</p>
             </div>
             <div class="col-md-4">
-                <p class="text-muted"><i class="fa fa-check-square-o fa-2x"></i>Informative and educative</p>
+                <p class="text-muted"><i class="fa fa-check-square-o fa-2x gr"></i>Informative and educative</p>
             </div>
             <div class="col-md-4">
-                <p class="text-muted"><i class="fa fa-check-square-o fa-2x"></i>Professionalism in services delivery.</p>
+                <p class="text-muted"><i class="fa fa-check-square-o fa-2x gr"></i>Professionalism in services delivery.</p>
             </div>
             <div class="col-md-4">
-                <p class="text-muted"><i class="fa fa-check-square-o fa-2x"></i>Reliability in supplies, deliveries and follow ups</p>
+                <p class="text-muted"><i class="fa fa-check-square-o fa-2x gr"></i>Reliability in supplies, deliveries and follow ups</p>
             </div>
             <div class="col-md-4">
-                <p class="text-muted"><i class="fa fa-check-square-o fa-2x"></i>Dependable workmanship in all projects undertaken.</p>
+                <p class="text-muted"><i class="fa fa-check-square-o fa-2x gr"></i>Dependable workmanship in all projects undertaken.</p>
             </div>
         </div>
     </div>
@@ -191,7 +191,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading" style="color: black">Contact Us</h2>
+                <h2 class="section-heading" style="color: green">Contact Us</h2>
                 <h3 class="section-subheading text-muted">Email Us. <h6>(* required)</h6></h3>
             </div>
         </div>

@@ -21,11 +21,14 @@
                     </div>
                     Systems and products in this category include off grid power solutions, grid tie solar power solutions and backup power solutions on turnkey arrangements. Other products provided on individuality include high quality solar panels, reliable batteries, charge controllers and inverters.
                     <div class="row" style="margin-top: 20px">
-                        <div class="col-md-6">
-                            <img src="{{url('img/batteries.jpg')}}" class="imgf" style="text-align: center;height: 100px;width: auto">
+                        <div class="col-md-4">
+                            <img src="{{url('img/batteries.jpg')}}" class="imgf" title="Batteries" style="text-align: center;height: 100px;width: auto">
                         </div>
-                        <div class="col-md-6">
-                            <img src="{{url('img/inverters.jpg')}}" class="imgf" style="text-align: center;height: 100px;width: auto">
+                        <div class="col-md-4">
+                            <img src="{{url('img/inverters.jpg')}}" class="imgf" title="Charge Inverters" style="text-align: center;height: 100px;width: auto">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="{{url('img/solar-panel.jpg')}}" class="imgf" title="Solar Panels" style="text-align: center;height: 100px;width: auto">
                         </div>
                     </div>
                 </div>
@@ -35,7 +38,7 @@
                 <h3 style="color: #fed136">WATER HEATING SYSTEMS</h3>
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="{{url('img/waterheating.jpg')}}" class="imgf" style="text-align: center">
+                        <img src="{{url('img/water.png')}}" class="imgf" style="text-align: center">
                     </div>
                     We provide both flat plate and evacuated tube solar water heating systems to meet both individual and commercial hot water requirements. Our systems are sourced form high standardized European markets and are supported by local highly trained technical work force for installation and maintenance services. These systems enables one to save up 65% of water heating electricity bills using free heat energy from the sun.
                 </div>

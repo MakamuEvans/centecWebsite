@@ -48,7 +48,7 @@
 
 </head>
 
-<body id="page-top" class="index" style="background-color: grey">
+<body id="page-top" class="index">
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
