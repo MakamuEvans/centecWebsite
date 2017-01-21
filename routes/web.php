@@ -12,10 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('body');
+    return view('home');
 });
 Route::get('how-solar-works', function () {
     return view('how');
+});
+Route::get('contact-us', function () {
+    return view('contact');
 });
 Route::get('the-pv-module', function () {
     return view('pv');

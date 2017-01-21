@@ -1,19 +1,25 @@
-@extends('layout')
+@extends('app')
 @section('content')
-        <!-- Header -->
-<div class="col-md-10 col-md-offset-1" style="background-color: white">
-    <div class="row hait" style="margin-left: 10px;margin-right: 10px">
-        <div class="col-md-8">
-            <div class="row" style="text-align: left">
-                <ol class="breadcrumb" style="margin-bottom: 0%">
-                    <li><a href="{{url('/')}}">Home</a></li>
-                    <li><a href="#">Why Go Solar</a></li>
-                </ol>
+    <section id="inner-headline">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="breadcrumb">
+                        <li><a href="#"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
+                        <li class="active">Why Go Solar</li>
+                    </ul>
+                </div>
             </div>
-            <h2 class="text-muted" style="text-align: center">Why Go Solar</h2>
-            <br>
-            <br>
-           <span class="fa-stack">
+        </div>
+    </section>
+    <section id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="">
+                        <h3>Why <span class="highlight">Go Solar?</span></h3>
+                    </div>
+                    <span class="fa-stack">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-check-square-o fa-stack-1x fa-inverse"></i>
                     </span> It’s clean, free, and reliable.<br><br>
@@ -33,12 +39,17 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-check-square-o fa-stack-1x fa-inverse"></i>
                     </span>The system is self-financing. The savings derived from the cheaper self-generation will
-            finance the project fully in principal and interest with a healthy saving every day.
+                    finance the project fully in principal and interest with a healthy saving every day.
+
+                </div>
+
+                <div class="col-lg-4">
+                    @include('partials.sidebar')
+                </div>
+
+            </div>
+
 
         </div>
-        <div class="col-md-4">
-            @include('sidebar')
-        </div>
-    </div>
-</div>
+    </section>
 @endsection
