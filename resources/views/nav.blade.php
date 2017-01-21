@@ -23,9 +23,6 @@
                     <a class="page-scroll" href="#values">Our Core Values</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">Contact Us</a>
-                </li>
-                <li>
                     <a class="page-scroll" href="{{url('partners')}}">Our Partners</a>
                 </li>
                 <li>
@@ -43,6 +40,9 @@
                             <a href="{{url('why-go-solar')}}">Why Go Solar</a>
                         </li>
                     </ul>
+                </li>
+                <li>
+                    <a class="page-scroll" href="{{url('/#contact')}}">Contact Us</a>
                 </li>
             </ul>
         </div>

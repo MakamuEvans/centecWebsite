@@ -1,0 +1,188 @@
+/* This CSS Stylesheet was not created by DaddyScripts */
+/* nor does it belong to DaddyScripts. 		      */
+
+/* GLOBAL ELEMENTS */
+html {
+   margin: 0; padding: 0;
+   background: #fff url("/lp/bckgrndimgblue.jpg") repeat-x;
+   font-size: 100%;
+   font-family: "trebuchet ms", arial, verdana;
+   color: #444;
+   text-align: center;
+}
+body {
+   margin: 0; padding: 0;
+   font-size: 100%;
+   font-family: "trebuchet ms", arial, verdana;
+   color: #444;
+   text-align: center;
+}
+a {
+   color: #EF7B0A;
+   text-decoration:none; 
+}
+a:hover {
+   text-decoration: underline;
+}
+p {
+   color: #444;
+   line-height: 110%; margin: 15px 5px 15px 5px;
+}
+p, td, th, ul {
+   font-size: 90%;
+}
+
+/* LAYOUT */
+#wrapper {
+   width: 900px;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+
+#content {
+   background: #fff;
+   border-top: 3px solid #ce6c1c;
+   border-bottom: 3px solid #ce6c1c;
+   padding: 20px;
+   box-shadow: 0px 1px 18px #666666;
+}
+
+/* ELEMENTS */
+h1 {
+   font: 120% "trebuchet ms";
+   color: #fff;
+   font-weight: bold;
+   border-bottom: 1px solid #FFFFFF;
+   margin-top:20px;
+   margin-bottom: 45px;
+   padding-bottom:5px;
+}
+h1 span { color: #6BAD42; }
+h1 a { color: #FFF; }
+h1 a:hover { color: #6BAD42;  text-decoration: none;}
+h1 a:hover span { color: #FFF;}
+h2 {
+   font: bold 100% arial, verdana, sans-serif;
+   color: #3B578B;
+}
+#footer {
+   margin: 40px 0 0 0; 
+   font-size: 75%;
+   line-height: 50%;
+   color: #ccc;
+}
+#nav li {
+   padding: 0 5px 0 5px;
+   font-size: 75%;
+   display: inline;
+   border-left: 1px solid #ccc;
+   margin-top: -10px;   
+}
+li a { color: #a8a8a8; }
+li a:hover { color: #000;  text-decoration: none;}
+li a:hover span { color: #000;}
+.left {
+   float: left;
+}
+
+/* TABLES USED IN COOKIE MANAGEMENT / EDIT BROWSER PAGES */
+table {
+   border-color: #666;
+   border-width: 0 0 1px 1px;
+   border-style: solid;
+   width: 100%;
+}
+th {
+   font-size: normal;
+   background: #ccc;
+   border-width: 2px;
+}
+td, th {
+   border-color: #666;
+   border-width: 1px 1px 0 0;
+   border-style: solid;
+   padding: 2px 10px 2px 10px;
+}
+td {background: #eee;}
+.full-width {
+   width: 98%;
+}
+
+.notice {
+    background: #a8c6ff;
+    color: #fff;
+    border-color: #FFD324;
+}
+
+.success {
+
+ background: #dbffdd;
+  background-image: -webkit-linear-gradient(top, #dbffdd, #30ff6e);
+  background-image: -moz-linear-gradient(top, #dbffdd, #30ff6e);
+  background-image: -ms-linear-gradient(top, #dbffdd, #30ff6e);
+  background-image: -o-linear-gradient(top, #dbffdd, #30ff6e);
+  background-image: linear-gradient(to bottom, #dbffdd, #30ff6e);
+  -webkit-box-shadow: 0px 1px 8px #666666;
+  -moz-box-shadow: 0px 1px 8px #666666;
+  box-shadow: 0px 1px 8px #666666;
+  font-family: Arial;
+  padding: 5px 5px 5px 5px;
+  text-decoration: none;
+}
+.lepasstxt {
+   font-size: 20px;
+   color: #000;
+   font-weight: bold;
+   text-align: center;
+   text-shadow: 0 3px 3px rgba(0,0,0,0.2);
+   font-family: Arial,Helvetica,sans-serif;
+}
+.error {
+  background: #FBE3E4; 
+  color: #D12F19; 
+  border-color: #FBC2C4;
+}
+.passw {
+    text-shadow: 0 2px 1px rgba(0,0,0,0.4);
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    color: #D12F19; 
+    border-color: #FBC2C4;
+}
+.subbtn {
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#f4a302), to(#f4a302) );
+    background-image: -moz-linear-gradient(top center,#f4a302,#f4a302);
+    background-image: -o-linear-gradient(top,#f4a302,#f4a302);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f4a302", endColorstr="#f4a302");
+    padding: 10px 25px 12px;
+    border: medium none;
+    border-radius: 4px 4px 4px 4px;
+    vertical-align: top;
+    box-shadow: 0 6px 0 #db9202,0 10px 3px rgba(0,0,0,0.3);
+    display: inline-block;
+    margin: 0.5em 0.5em 0.5em 7px;
+    padding: 2px 6px 2px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 2px 1px rgba(0,0,0,0.4);
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bold;
+    color: #FFFFFF;
+    transition: all 0.1s linear 0s;
+    cursor: pointer;
+}
+#email {
+  display: none;
+}
+
+#imgId {
+    /* Set the width dynamically depending on the width of the browser window */
+    width:100%;
+    /* dont enlarge the image more, than its initial resolution */
+    max-width:700px;
+    max-height:autopx;
+    /* Set the height dynamically depending on the image's current width, keeping the aspect ratio */
+    height:auto;
+}
