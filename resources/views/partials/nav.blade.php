@@ -13,7 +13,7 @@
                 <li><a style="color: white" href="{{url('/')}}">Home</a></li>
                 <li><a style="color: white" href="{{url('partners')}}">Our Partners</a></li>
                 <li><a style="color: white" href="{{url('products-and-services')}}">Products and Services</a></li>
-                <li><a style="color: white" href="portfolio.html">Portfolio</a></li>
+                <li><a style="color: white" href="{{url('/portfolio')}}">Portfolio</a></li>
                 <li class="dropdown"><a  style="color: white" href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Solar Explained <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu">
                         <li><a href="{{url('why-go-solar')}}">Why go Solar</a></li>

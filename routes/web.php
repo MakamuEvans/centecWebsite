@@ -17,9 +17,13 @@ Route::get('/', function () {
 Route::get('how-solar-works', function () {
     return view('how');
 });
-Route::get('contact-us', function () {
-    return view('contact');
+
+Route::get('portfolio', function () {
+    return view('portfolio');
 });
+
+//Route::post('sendmessage', 'HomeController@social');
+
 Route::get('the-pv-module', function () {
     return view('pv');
 });
@@ -35,3 +39,4 @@ Route::get('products-and-services', function () {
 Route::any('download/brochure', 'MailController@brochure');
 Route::any('download/water-heating-catalog', 'MailController@catalog');
 Route::any('sendmail', 'MailController@mail');
+Route::get('contact-us', array('as'=>'contact-us', 'uses'=>'MailController@contact'));

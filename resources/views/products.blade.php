@@ -50,7 +50,7 @@
                             <h3>Water<span class="highlight">Heating System</span></h3>
                         </div>
 
-                        <img src="{{url('img/water.png')}}" class="img-responsive">
+                        <img src="{{url('img/water2.png')}}" class="img-responsive">
 
                         <p>
                             We provide both flat plate and evacuated tube solar water heating systems to meet both individual and commercial hot water requirements. Our systems are sourced form high standardized European markets and are supported by local highly trained technical work force for installation and maintenance services. These systems enables one to save up 65% of water heating electricity bills using free heat energy from the sun.

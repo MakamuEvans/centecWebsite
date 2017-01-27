@@ -1,6 +1,6 @@
 <?php
 // Check for empty fields
-if(empty($_POST['name'])      ||
+/*if(empty($_POST['name'])      ||
    empty($_POST['email'])     ||
    empty($_POST['phone'])     ||
    empty($_POST['message'])   ||
@@ -8,11 +8,11 @@ if(empty($_POST['name'])      ||
    {
    echo "No arguments Provided!";
    return false;
-   }
+   }*/
    
 $name = strip_tags(htmlspecialchars($_POST['name']));
 $email_address = strip_tags(htmlspecialchars($_POST['email']));
-$phone = strip_tags(htmlspecialchars($_POST['phone']));
+$phone = strip_tags(htmlspecialchars($_POST['subject']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
    
 // Create the email and send the message
