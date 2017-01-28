@@ -27,6 +27,10 @@ Route::get('portfolio', function () {
 Route::get('the-pv-module', function () {
     return view('pv');
 });
+
+Route::get('our-team', function () {
+    return view('team');
+});
 Route::get('partners', function () {
     return view('partners');
 });
@@ -39,4 +43,5 @@ Route::get('products-and-services', function () {
 Route::any('download/brochure', 'MailController@brochure');
 Route::any('download/water-heating-catalog', 'MailController@catalog');
 Route::any('sendmail', 'MailController@mail');
+Route::any('sendmailajax', 'MailController@mailajax');
 Route::get('contact-us', array('as'=>'contact-us', 'uses'=>'MailController@contact'));

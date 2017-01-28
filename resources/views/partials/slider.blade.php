@@ -3,15 +3,15 @@
         <li>
             <img src="{{url('img/green.jpg')}}" alt="" />
             <div class="flex-caption">
-                <h3>Cheap Solar</h3>
-                <p>We Provode Cheap, Clean And Reliable Solar Energy to All</p>
+                <h3>Affordable Solar</h3>
+                <p>We Provide Affordable, Clean And Reliable Solar Energy to All</p>
             </div>
         </li>
         <li>
             <img src="{{url('img/solar.jpg')}}" alt="" />
             <div class="flex-caption">
                 <h3>Professionalism</h3>
-                <p>We ara a Duly Registered and Accredited Company in Kenya. Being Professional is our Expertese</p>
+                <p>We ara a Duly Registered and Accredited Company in Kenya. Being Professional is our Expertise</p>
             </div>
         </li>
         <li>

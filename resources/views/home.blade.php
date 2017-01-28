@@ -59,7 +59,7 @@
                                 </div>
                                 <h4>Mission Statement</h4>
                                 <p>
-                                    To create social economic opportunities to our clients through provision of cheap, sustainable and reliable energy solutions.
+                                    To create social economic opportunities to our clients through provision of Affordable, Sustainable and Reliable Energy solutions.
                                 </p>
                             </div>
                         </div>
@@ -72,7 +72,7 @@
                                 </div>
                                 <h4>Customer Care Policy Statement</h4>
                                 <p>
-                                    To be the primary resource for providing clients with information in renewable energy, energy cost management and savings while backed by quality products and services towards reducing electricity cost by 50%.
+                                    To be the primary resource for providing clients with information in Renewable Energy, energy cost management and savings while backed by quality products and services towards reducing electricity cost by 50%.
                                 </p>
                             </div>
                         </div>
@@ -85,7 +85,7 @@
                                 </div>
                                 <h4>Vision Statement</h4>
                                 <p>
-                                    Reliable and cheap energy for all.
+                                    Reliable and Affordable energy for all.
                                 </p>
                             </div>
                         </div>

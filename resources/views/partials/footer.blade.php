@@ -2,15 +2,78 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-3 col-lg-3">
+                <hr>
                 <div class="widget">
                     <h4>Request Quote</h4>
-                    <p>Fill your valid details below</p>
+                    <h6 style="color: red" id="er">Please fill all fields</h6>
+                    <h6 style="color: green" id="xs">Success! Your message send.</h6>
                     <div class="form-group multiple-form-group input-group">
+                        <div class="form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" value="{{old('name')}}" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <div class="validation"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" value="{{old('email')}}" data-rule="email" data-msg="Please enter a valid email" />
+                            <div class="validation"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone Number" value="{{old('phone')}}" data-rule="phone" data-msg="Please enter your Number" />
+                            <div class="validation"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" value="{{old('subject')}}" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                            <div class="validation"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" id="message" rows="3" data-rule="required" data-msg="Please write something for us" placeholder="Message">
+                                {{old('message')}}
+                            </textarea>
+                            <div class="validation"></div>
+                        </div>
+                        <script>
+
+                            function sendmessage(){
+                                $.ajaxSetup({
+                                    headers: {
+                                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                                    }
+                                });
+
+                                var  name = $('#name').val();
+                                var  email = $('#email').val();
+                                var  phone = $('#phone').val();
+                                var  subject = $('#subject').val();
+                                var message= $('#message').val();
+
+                                if (name == '' || email ==''||phone==''||subject==''||message==''){
+                                    $('#er').show();
+                                    $('#xs').hide();
+                                }else {
+                                    $('#ajaxsend').text("Sending...");
+                                    $.ajax({
+                                        url :'sendmailajax',
+                                        type: "GET",
+                                        dataType: "json",
+                                        data : {name:name,email:email,phone:phone,subject:subject,message:message},
+                                        success: function(data) {
+
+                                            $('#xs').show();
+                                            $('#er').hide();
+                                            $('#ajaxsend').text("Send Message");
+
+                                        }
+                                    });
+                                }
+                            }
+                        </script>
+
+                        <div class="text-center"><button id="ajaxsend" onclick="sendmessage();" class="btn btn-theme btn-block btn-md">Send Message</button></div>
 
                     </div>
                 </div>
             </div>
             <div class="col-sm-3 col-lg-3">
+                <hr>
                 <div class="widget">
                     <h4>Get in touch with us</h4>
                     <address>
@@ -28,6 +91,7 @@
                 </div>
             </div>
             <div class="col-sm-3 col-lg-3">
+                <hr>
                 <div class="widget">
                     <h4>Downloads</h4>
                     <ul class="link-list">
@@ -36,8 +100,18 @@
                     </ul>
                 </div>
 
+                <div class="widget">
+                    <h4>Read Latest...</h4>
+                    <ul class="link-list">
+                        <li><a href="{{url('why-go-solar')}}">Why Go Solar?</a></li>
+                        <li><a href="{{url('how-solar-works')}}">How Solar Works.</a></li>
+                        <li><a href="{{url('the-pv-module')}}">The PV System.</a></li>
+                    </ul>
+                </div>
+
             </div>
             <div class="col-sm-3 col-lg-3">
+                <hr>
                 <div class="widget">
                     <h4>Legal</h4>
                     <ul class="link-list">
@@ -45,6 +119,7 @@
                         <li><a href="#">Terms and conditions</a></li>
                         <li><a href="#">Privacy policy</a></li>
                         <li><a href="#">Career center</a></li>
+                        <li><a href="{{url('our-team')}}">Our Team</a></li>
                     </ul>
                 </div>
             </div>

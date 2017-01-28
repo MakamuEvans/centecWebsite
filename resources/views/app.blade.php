@@ -47,27 +47,32 @@
 <div id="wrapper">
     <!-- start header -->
     <header>
-        <div class="top">
-            <div class="container">
+        <div class="top" style="padding: 0px">
+            <div class="container" style="">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <ul class="topleft-info">
-                        </ul>
+                    <div class="col-md-6">
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-md-6">
                         <ul class="social-network pull-right">
-                            <li><a href="#" data-placement="bottom" style="color: green" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#" data-placement="bottom" style="color: green" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.facebook.com/sentimentalenergy/" data-placement="bottom" style="color: green" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/SentecLtd" data-placement="bottom" style="color: green" title="Twitter"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="#" data-placement="bottom" style="color: green" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
                             <li><a href="#" data-placement="bottom" style="color: green" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
                             <li><a href="#" data-placement="bottom" style="color: green" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
                         </ul>
-                    </div>
+                        <div id="sb-search" class="sb-search" style="visibility: hidden">
+                            <form>
+                                <input class="sb-search-input" placeholder="Enter your search term..." type="text" value="" name="search" id="search">
+                                <input class="sb-search-submit" type="submit" value="">
+                                <span class="sb-icon-search" title="Click to start searching"></span>
+                            </form>
+                        </div>
 
+
+                    </div>
                 </div>
             </div>
         </div>
-
         @include('partials.nav')
     </header>
     <!-- end header -->
