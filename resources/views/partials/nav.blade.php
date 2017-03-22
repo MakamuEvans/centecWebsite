@@ -6,23 +6,23 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand"  style="height: 100%;margin-top: 10px" href="{{url('/')}}"><img src="{{url('img/logo.png')}}" alt="" style="max-width: 250px" width="auto" height="80" /></a>
+            <a class="navbar-brand"  style="height: 100%;margin-top: 10px" href="{{url('/')}}"><img src="{{url('img/qr_code_test.png')}}" alt="" style="max-width: 250px" width="auto" height="80" /></a>
         </div>
         <div class="navbar-collapse collapse ">
             <ul class="nav navbar-nav">
-                <li><a style="color: white" href="{{url('/')}}">Home</a></li>
-                <li><a style="color: white" href="{{url('partners')}}">Our Partners</a></li>
-                <li><a style="color: white" href="{{url('products-and-services')}}">Products and Services</a></li>
-                <li><a style="color: white" href="{{url('/portfolio')}}">Portifolio</a></li>
-                <li class="dropdown"><a  style="color: white" href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Solar Explained <i class="fa fa-angle-down"></i></a>
+                <li><a style="" href="{{url('/')}}"><i class="fa fa-home"> </i> Home</a></li>
+                <li><a style="" href="{{url('partners')}}"><i class="fa fa-handshake-o"></i> Our Partners</a></li>
+                <li><a style="" href="{{url('products-and-services')}}"><i class="fa fa-sun-o"></i> Products and Services</a></li>
+                <li><a style="" href="{{url('/portfolio')}}"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+                <li class="dropdown"><a  style="" href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false"><i class="fa fa-book"></i> Solar Explained<i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu">
-                        <li><a href="{{url('why-go-solar')}}">Why go Solar</a></li>
-                        <li><a href="{{url('how-solar-works')}}">How Solar Works</a></li>
-                        <li><a href="{{url('the-pv-module')}}">The PV System</a></li>
+                        <li><a style="background-color: green" href="{{url('why-go-solar')}}"><i class="fa fa-check"></i> Why go Solar</a></li>
+                        <li><a style="background-color: green" href="{{url('how-solar-works')}}"><i class="fa fa-check"></i> How Solar Works</a></li>
+                        <li><a style="background-color: green" href="{{url('the-pv-module')}}"><i class="fa fa-check"></i> The PV System</a></li>
                     </ul>
                 </li>
-                <li><a style="color: white" href="{{url('/our-team')}}">Out Team</a></li>
-                <li><a style="color: white" href="{{url('contact-us')}}">Contact Us</a></li>
+                <li><a style="" href="{{url('/our-team')}}"><i class="fa fa-user"></i> Our Team</a></li>
+                <li><a style="" href="{{url('contact-us')}}"><i class="fa fa-address-book"></i> Contact Us</a></li>
             </ul>
         </div>
     </div>

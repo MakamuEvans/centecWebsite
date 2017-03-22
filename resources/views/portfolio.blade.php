@@ -185,7 +185,7 @@
                     <h3 class="modal-title">Water Pumping System in Narok</h3>
                 </div>
                 <div class="modal-body">
-                    <div id="modalCarousel" class="carousel">
+                    <div id="pnarok" class="carousel">
 
                         <div class="carousel-inner">
                             <div class="item active">
@@ -193,8 +193,8 @@
                             </div>
                         </div>
 
-                        <a class="carousel-control left" href="#modaCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
-                        <a class="carousel-control right" href="#modalCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                        <a class="carousel-control left" href="#pnarok" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                        <a class="carousel-control right" href="#pnarok" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
 
                     </div>
                     <br><br>
@@ -218,7 +218,7 @@
                     <h3 class="modal-title">Residential Power Backup System</h3>
                 </div>
                 <div class="modal-body">
-                    <div id="modalCarousel" class="carousel">
+                    <div id="presidential" class="carousel">
 
                         <div class="carousel-inner">
                             <div class="item active">
@@ -226,8 +226,8 @@
                             </div>
                         </div>
 
-                        <a class="carousel-control left" href="#modaCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
-                        <a class="carousel-control right" href="#modalCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                        <a class="carousel-control left" href="#presidential" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                        <a class="carousel-control right" href="#presidential" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
 
                     </div>
                     <br><br>
@@ -250,7 +250,7 @@
                     <h3 class="modal-title">Power for Mariakani Training Institute</h3>
                 </div>
                 <div class="modal-body">
-                    <div id="modalCarousel" class="carousel">
+                    <div id="pmariakani" class="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                             <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -273,8 +273,8 @@
                             </div>
                         </div>
 
-                        <a class="carousel-control left" href="#modaCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
-                        <a class="carousel-control right" href="#modalCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                        <a class="carousel-control left" href="#pmariakani" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                        <a class="carousel-control right" href="#pmariakani" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
 
                     </div>
                     <br><br>

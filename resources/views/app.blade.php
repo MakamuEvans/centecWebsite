@@ -2,11 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Sentimental Energy | Kenya - Cheap Reliable Solar Energy for All</title>
+    <title>Sentimental Energy | Kenya - Affordable Reliable Solar Energy for All</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Bootstrap 3 template for corporate business" />
+    <meta name="description" content="Affordable Reliable Solar Energy for All | Kenya"/>
+    <meta name="author" content="Sentimental Energy">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sentimental Energy">
+    <meta name="twitter:description" content="Affordable Reliable Energy In Kenya">
+    <meta name="twitter:image:src" content="{{url('img/solar-panel.jpg')}}">
+    <meta name="twitter:domain" content="http://www.sentecltd.com">
+
+    <meta property="og:title" content="Sentimental Energy" />
+    <meta property="og:image" content="{{url('img/solar-panel.jpg')}}" />
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:url" content="http://www.sentecltd.com" />
+    <meta property="og:description" content="Affordable reliable Energy in Kenya" />
     <!-- css -->
     <link href="{{url("css/bootstrap.min.css")}}" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="{{url("plugins/flexslider/flexslider.css")}}" rel="stylesheet" media="screen" />
     <link href="{{url("css/cubeportfolio.min.css")}}" rel="stylesheet" />
     <link href="{{url("css/style.css")}}" rel="stylesheet" />
@@ -25,7 +40,7 @@
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
         js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=1090278264384599";
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=458817457575935";
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
 

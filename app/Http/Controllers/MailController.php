@@ -34,7 +34,7 @@ class MailController extends Controller
         $headers .= "Reply-To: $email_address";*/
 
         Mail::send('webmail',['name'=>$name,'email'=>$from,'comments'=>$message, 'subject'=>$subject, 'phone'=>$phone],function($message) use($from, $subject, $name){
-            $message->to('simiyu@sentecltd.com','ELm')->from($from)->subject($subject);
+            $message->to('info@sentecltd.com','ELm')->from($from)->subject('Message from Website:'.$subject);
         });
 
         return redirect()->route('contact-us')

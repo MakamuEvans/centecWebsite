@@ -11,3 +11,12 @@
 #xs{
     display: none;
 }
+ul.nav.navbar-nav li a{
+    color: yellow !important;
+}
+ul.nav.navbar-nav li a:hover{
+    color: white !important;
+}
+span.highlight{
+    color: yellow !important;
+}

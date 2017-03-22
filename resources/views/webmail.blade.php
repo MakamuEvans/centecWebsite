@@ -15,10 +15,6 @@
 
 <div>Message: {{ $comments}} </div><br><br>
 
-<div>
-    Regards,<br>
-    Muva Team
-</div>
 
 </body>
 </html>

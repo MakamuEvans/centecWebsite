@@ -1,7 +1,7 @@
 <div id="main-slider" class="main-slider flexslider">
     <ul class="slides">
         <li>
-            <img src="{{url('img/green.jpg')}}" alt="" />
+            <img src="{{url('img/draw1.png')}}" alt="" style="width: 100%;height: auto"/>
             <div class="flex-caption">
                 <h3>Affordable Solar</h3>
                 <p>We Provide Affordable, Clean And Reliable Solar Energy to All</p>
