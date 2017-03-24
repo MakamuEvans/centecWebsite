@@ -67,7 +67,7 @@
                             }
                         </script>
 
-                        <div class="text-center"><button id="ajaxsend" onclick="sendmessage();" class="btn btn-theme btn-block btn-md">Send Message</button></div>
+                        <div class="text-center"><button id="ajaxsend" onclick="sendmessage();" class="btn btn-primary form-control">Send Message</button></div>
 
                     </div>
                 </div>

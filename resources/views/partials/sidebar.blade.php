@@ -3,7 +3,7 @@
         <h5 class="widgetheading">Information</h5>
         <ul class="recent">
             <li>
-                <img src="{{url('img/thumb1.jpg')}}" class="pull-left" alt="" />
+                <img src="{{url('img/logo3.svg')}}" class="pull-left"  style="height: 65px;width: 65px" alt="" />
                 <h6>Why Go Solar?</h6>
                 <p>
                     <a href="{{url('why-go-solar')}}">
@@ -12,7 +12,7 @@
                 </p>
             </li>
             <li>
-                <img src="{{url('img/thumb1.jpg')}}" class="pull-left" alt="" />
+                <img src="{{url('img/logo3.svg')}}" class="pull-left"  style="height: 65px;width: 65px" alt="" />
                 <h6>Solar Explained</h6>
                 <p>
                     <a href="{{url('solar-explained')}}">
@@ -21,7 +21,7 @@
                 </p>
             </li>
             <li>
-                <img src="{{url('img/thumb1.jpg')}}" class="pull-left" alt="" />
+                <img src="{{url('img/logo3.svg')}}" class="pull-left"  style="height: 65px;width: 65px" alt="" />
                 <h6>The PV System</h6>
                 <p>
                     <a href="{{url('the-pv-system')}}">

@@ -15,7 +15,7 @@
     <section id="content">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-8" style="background-color: white">
                     <div class="">
                         <h3>Our <span class="highlight">Partners</span></h3>
                     </div>

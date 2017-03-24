@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Affordable Reliable Solar Energy for All | Kenya"/>
     <meta name="author" content="Sentimental Energy">
+    <link rel="icon" href="{{url('img/logo3.svg')}}" type="image/x-icon">
+
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Sentimental Energy">
     <meta name="twitter:description" content="Affordable Reliable Energy In Kenya">
-    <meta name="twitter:image:src" content="{{url('img/solar-panel.jpg')}}">
+    <meta name="twitter:image:src" content="{{url('img/logo.svg')}}">
     <meta name="twitter:domain" content="http://www.sentecltd.com">
 
     <meta property="og:title" content="Sentimental Energy" />
-    <meta property="og:image" content="{{url('img/solar-panel.jpg')}}" />
+    <meta property="og:image" content="{{url('img/logo.svg')}}" />
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="1200">
     <meta property="og:url" content="http://www.sentecltd.com" />
@@ -34,7 +36,7 @@
     <link id="bodybg" href="{{url("css/sentec.css")}}" rel="stylesheet" type="text/css" />
 
 </head>
-<body>
+<body style="background-color: white">
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];

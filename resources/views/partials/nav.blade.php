@@ -6,7 +6,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand"  style="height: 100%;margin-top: 10px" href="{{url('/')}}"><img src="{{url('img/qr_code_test.png')}}" alt="" style="max-width: 250px" width="auto" height="80" /></a>
+            <a class="navbar-brand"  style="height: 100%;margin-top: 0px" href="{{url('/')}}"><img src="{{url('img/logo3.svg')}}" alt="" style="max-width: 250px" width="auto" height="100" /></a>
         </div>
         <div class="navbar-collapse collapse ">
             <ul class="nav navbar-nav">

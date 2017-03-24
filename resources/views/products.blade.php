@@ -16,7 +16,7 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-8" style="background-color: white">
                     <div class="row">
                         <div class="">
                             <h3><span class="highlight">Solar Power</span> Systems</h3>

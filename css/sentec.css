@@ -20,3 +20,20 @@ ul.nav.navbar-nav li a:hover{
 span.highlight{
     color: yellow !important;
 }
+.banner{
+    background-color: yellow;
+    border: 2px green double;
+}
+.haha{
+    background-color: #F2F2F2;
+    background-image: url("../img/logo3.svg") !important;
+    background-position: center !important;
+    background-size: 80% !important;
+    background-repeat: no-repeat !important;
+}
+.backimg{
+    background-color: white;
+    padding: 10px;
+    color: black;
+    opacity: 0.9;
+}
