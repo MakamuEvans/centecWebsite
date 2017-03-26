@@ -116,6 +116,10 @@
 <script src="{{url("js/animate.js")}}"></script>
 <script src="{{url("js/custom.js")}}"></script>
 
+<script>
+    $('.cbp-item').css('height', '300px');
+</script>
+
 
 </body>
 </html>

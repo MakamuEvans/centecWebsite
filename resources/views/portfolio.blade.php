@@ -61,6 +61,27 @@
                             <li class="cbp-item graphic">
                                 <div class="cbp-caption">
                                     <div class="cbp-caption-defaultWrap">
+                                        <img src="img/katch.jpeg" class="img-responsive" alt="" />
+                                    </div>
+
+                                </div>
+                                <div class="cbp-l-grid-projects-title">5kva BackUp. Kakamega | 2017</div>
+                                <a data-toggle="modal" data-target="#kakamega" class="readmore pull-right" style="cursor: pointer">Read More <i class="fa fa-angle-right"></i></a>
+                            </li>
+
+                            <li class="cbp-item graphic">
+                                <div class="cbp-caption">
+                                    <div class="cbp-caption-defaultWrap">
+                                        <img src="img/loresho.jpeg" class="img-responsive" alt="" />
+                                    </div>
+
+                                </div>
+                                <div class="cbp-l-grid-projects-title">7.8kwp Lighting. Loresho | 2017</div>
+                                <a data-toggle="modal" data-target="#loresho" class="readmore pull-right" style="cursor: pointer">Read More <i class="fa fa-angle-right"></i></a>
+                            </li>
+                            <li class="cbp-item graphic">
+                                <div class="cbp-caption">
+                                    <div class="cbp-caption-defaultWrap">
                                         <img src="img/riara.jpg" class="img-responsive" alt="" />
                                     </div>
 
@@ -80,6 +101,16 @@
                                 <div class="cbp-l-grid-projects-title">600wp residential unit </div>
 
 
+                            </li>
+                            <li class="cbp-item graphic">
+                                <div class="cbp-caption">
+                                    <div class="cbp-caption-defaultWrap">
+                                        <img src="img/ksm.jpeg" class="img-responsive" alt="" />
+                                    </div>
+
+                                </div>
+                                <div class="cbp-l-grid-projects-title">1000kw Water Heating Kisumu<span class="highlight">...in Progress</span></div>
+                                <a data-toggle="modal" data-target="#kisumu" class="readmore pull-right" style="cursor: pointer">Read More <i class="fa fa-angle-right"></i></a>
                             </li>
                             <li class="cbp-item graphic">
                                 <div class="cbp-caption">
@@ -176,6 +207,141 @@
         </div>
     </div>
 
+    <div class="modal" id="loresho" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal">×</button>
+                    <h3 class="modal-title">Light commercial unit in Loresho Nairobi</h3>
+                </div>
+                <div class="modal-body">
+                    <div id="modalloresho" class="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="img/loresho.jpeg" alt="Chania">
+                            </div>
+
+                            <div class="item">
+                                <img src="img/loresho1.jpeg" alt="Chania">
+                            </div>
+
+                            <div class="item">
+                                <img src="img/loresho2.jpeg" alt="Chania">
+                            </div>
+
+                            <div class="item">
+                                <img src="img/loresho3.jpeg" alt="Chania">
+                            </div>
+                        </div>
+
+                        <a class="carousel-control left" href="#modalloresho" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                        <a class="carousel-control right" href="#modalloresho" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+
+                    </div>
+                    <br><br>
+                    <p>
+                        <span class="highlight">7.8kwp</span> light commercial unit in Loresho Nairobi.
+
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="kakamega" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal">×</button>
+                    <h3 class="modal-title">5kva BackUp System</h3>
+                </div>
+                <div class="modal-body">
+                    <div id="modalkatch" class="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="img/katch.jpeg" alt="Chania">
+                            </div>
+
+                            <div class="item">
+                                <img src="img/katch2.jpeg" alt="Chania">
+                            </div>
+
+                        </div>
+
+                        <a class="carousel-control left" href="#modalkatch" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                        <a class="carousel-control right" href="#modalkatch" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+
+                    </div>
+                    <br><br>
+                    <p>
+                        <span class="highlight">5kva</span> back up system at Milimani Resort, :kakamega
+
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="kisumu" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal">×</button>
+                    <h3 class="modal-title">1000kw Water Heating System</h3>
+                </div>
+                <div class="modal-body">
+                    <div id="modalksm" class="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="img/ksm.jpeg" alt="Chania">
+                            </div>
+
+                            <div class="item">
+                                <img src="img/ksm1.jpeg" alt="Chania">
+                            </div>
+                            <div class="item">
+                                <img src="img/ksm2.jpeg" alt="Chania">
+                            </div>
+
+                        </div>
+
+                        <a class="carousel-control left" href="#modalksm" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                        <a class="carousel-control right" href="#modalksm" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+
+                    </div>
+                    <br><br>
+                    <p>
+                        <span class="highlight">1000kw </span> of water heating at nhc, shauri moyo housing, kisumu
+
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <div class="modal" id="narok" role="dialog">
         <div class="modal-dialog">
@@ -192,9 +358,6 @@
                                 <img src="img/narok.jpg" alt="Chania">
                             </div>
                         </div>
-
-                        <a class="carousel-control left" href="#pnarok" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
-                        <a class="carousel-control right" href="#pnarok" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
 
                     </div>
                     <br><br>

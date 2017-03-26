@@ -54,13 +54,14 @@
                                     </li>
                                     <li>
                                         <span class="pullquote-left" style="text-align: left">
-                                            <span><u>Qualifications</u></span><br>
-                                            BSC:MECHANICAL & PRODUCTION ENG (MOI UNIVERSITY)<br>
-                                            MBA :STRATEGIC MANAGEMENT (JKUAT)<br>
-                                            DIPLOMA:PROJECTS MANAGEMENT(MUA).<br><br>
-
-                                            <span><u>Experience</u></span><br>
-                                           SIx(6) Years
+                                            Paul Simiyu Mabonga is  a dedicated energy engineer, effective projects coordinator and manager with a passion to
+propagate the use of clean energy through audit, engineering, procurement, construction, operations
+and maintenance of solar energy systems. <br>He hold Bachelor of Science degree in Mechanical and
+Production Engineering (Moi University) and currently pursuing Masters in business administration
+(strategic management –JKUAT). He have six(6) years’ experience in energy sector with a focus on
+development, construction and service .His desire is to work, develop and perfect into a
+multidisciplinary team leader in energy and resources management for accessibility and environmental
+conservation.
 
                                         </span>
 
@@ -102,7 +103,7 @@
                         </div>
                     </div>
 
-                    <div class="row">
+                    {{--<div class="row">
                         <div class="col-lg-4">
                             <img src="{{url('img/photo.png')}}" class="img-responsive"
                                  style="border-radius: 50px;">
@@ -140,7 +141,7 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div>--}}
                 </div>
 
                 <div class="col-lg-4">
