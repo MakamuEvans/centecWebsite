@@ -1,7 +1,7 @@
 <footer>
     <div class="container">
-        <div class="row">
-            <div class="col-sm-3 col-lg-3">
+        <div class="row" style="text-align: center">
+            {{--<div class="col-sm-3 col-lg-3">
                 <hr>
                 <div class="widget">
                     <h4>Request Quote</h4>
@@ -9,23 +9,23 @@
                     <h6 style="color: green" id="xs">Success! Your message send.</h6>
                     <div class="form-group multiple-form-group input-group">
                         <div class="form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" value="{{old('name')}}" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <input type="text" name="name" class="form-control" id="ajaxname" placeholder="Your Name" value="{{old('name')}}" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                             <div class="validation"></div>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" value="{{old('email')}}" data-rule="email" data-msg="Please enter a valid email" />
+                            <input type="email" class="form-control" name="email" id="ajaxemail" placeholder="Your Email" value="{{old('email')}}" data-rule="email" data-msg="Please enter a valid email" />
                             <div class="validation"></div>
                         </div>
                         <div class="form-group">
-                            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone Number" value="{{old('phone')}}" data-rule="phone" data-msg="Please enter your Number" />
+                            <input type="tel" class="form-control" name="phone" id="pajaxhone" placeholder="Your Phone Number" value="{{old('phone')}}" data-rule="phone" data-msg="Please enter your Number" />
                             <div class="validation"></div>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" value="{{old('subject')}}" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                            <input type="text" class="form-control" name="subject" id="sajaxubject" placeholder="Subject" value="{{old('subject')}}" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                             <div class="validation"></div>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" name="message" id="message" rows="3" data-rule="required" data-msg="Please write something for us" placeholder="Message">
+                            <textarea class="form-control" name="message" id="ajaxmessage" rows="3" data-rule="required" data-msg="Please write something for us" placeholder="Message">
                                 {{old('message')}}
                             </textarea>
                             <div class="validation"></div>
@@ -39,13 +39,13 @@
                                     }
                                 });
 
-                                var  name = $('#name').val();
-                                var  email = $('#email').val();
-                                var  phone = $('#phone').val();
-                                var  subject = $('#subject').val();
-                                var message= $('#message').val();
+                                var  name = $('#ajaxname').val();
+                                var  email = $('#ajaxemail').val();
+                                var  phone = $('#ajaxphone').val();
+                                var  subject = $('#ajaxsubject').val();
+                                var message= $('#ajaxmessage').val();
 
-                                if (name == '' || email ==''||phone==''||subject==''||message==''){
+                                if (name == '' || email ==''|| phone==''|| subject==''){
                                     $('#er').show();
                                     $('#xs').hide();
                                 }else {
@@ -71,8 +71,8 @@
 
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-3 col-lg-3">
+            </div>--}}
+            <div class="col-sm-4 col-lg-4">
                 <hr>
                 <div class="widget">
                     <h4>Get in touch with us</h4>
@@ -90,7 +90,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-sm-3 col-lg-3">
+            <div class="col-sm-4 col-lg-4">
                 <hr>
                 <div class="widget">
                     <h4>Downloads</h4>
@@ -110,7 +110,7 @@
                 </div>
 
             </div>
-            <div class="col-sm-3 col-lg-3">
+            <div class="col-sm-4 col-lg-4">
                 <hr>
                 <div class="widget">
                     <h4>Legal</h4>

@@ -86,7 +86,7 @@
                                     </div>
 
                                 </div>
-                                <div class="cbp-l-grid-projects-title">3wp Residential Power Backup</div>
+                                <div class="cbp-l-grid-projects-title">3kw Residential Power Backup</div>
                                 <a data-toggle="modal" data-target="#residential" class="readmore pull-right" style="cursor: pointer">Read More <i class="fa fa-angle-right"></i></a>
 
 
@@ -395,7 +395,7 @@
                     </div>
                     <br><br>
                     <p>
-                        We installed <span class="highlight">3kwp</span> of power back up system for residential power back up in Riara , Nairobi for mr David Langat                    </p>
+                        We installed <span class="highlight">3kw</span> of power back up system for residential power back up in Riara , Nairobi for mr David Langat                    </p>
                 </div>
                 <div class="modal-footer">
                     <button class="btn btn-default" data-dismiss="modal">Close</button>

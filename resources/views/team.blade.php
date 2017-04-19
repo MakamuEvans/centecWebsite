@@ -32,12 +32,14 @@
 
                     </h6>--}}
                     <div class="row">
-                        <div class="col-lg-4">
-                            <img src="{{url('img/paul.jpg')}}" class="img-responsive"
-                                 style="border-radius: 50px;">
+                        <div class="row">
+                            <div class="col-md-4 col-xs-12 col-sm-6 col-md-offset-4 col-sm-offset-3">
+                                <img src="{{url('img/paul.jpg')}}" class="img-responsive"
+                                     style="border-radius: 50px;">
+                            </div>
                         </div>
-                        <div class="col-lg-8">
-                            <h4 style="text-align: left">Paul Simiyu Mabonga <span>&#8213; Managing Director and Founder</span></h4>
+                        <div class="row">
+                            <h4 style="text-align: center">Paul Simiyu Mabonga <span>&#8213; Managing Director and Founder</span></h4>
                             <div class="testimonialslide clearfix flexslider">
                                 <ul class="slides">
                                     <li>
@@ -56,12 +58,39 @@
                                         <span class="pullquote-left" style="text-align: left">
                                             Paul Simiyu Mabonga is  a dedicated energy engineer, effective projects coordinator and manager with a passion to
 propagate the use of clean energy through audit, engineering, procurement, construction, operations
-and maintenance of solar energy systems. <br>He hold Bachelor of Science degree in Mechanical and
-Production Engineering (Moi University) and currently pursuing Masters in business administration
-(strategic management –JKUAT). He have six(6) years’ experience in energy sector with a focus on
+and maintenance of solar energy systems.
+                                            <br><br>
+                                            <b>Professional Education</b>
+                                            <p>
+                                                <i>2011-2015</i>-Jomo Kenyatta University Of Agriculture and Technology (JKUAT)
+Degree: Masters Programme in Business Administration (Strategic Management)<br>
+                                                <i>2005–2009</i>- Moi University
+Degree: Mechanical and Production Engineering.
+Grade: second class honors.
+                                            </p>
+
+                                            <br>
+                                            <b>Employment Summary:</b>
+                                            <p>
+                                                He have six(6) years’ experience in energy sector with a focus on
 development, construction and service .His desire is to work, develop and perfect into a
 multidisciplinary team leader in energy and resources management for accessibility and environmental
-conservation.
+conservation.<br><br>
+                                                <i>June-December 2016:</i> Solarcentury East Africa K Ltd
+Position: Engineering & Technical sales support<br>
+                                                <i>Oct 2015-May 2016:</i> Astonfield Solesa Solar K Ltd
+Position: Engineering and Technical Support<br>
+                                                <i>October 2014-Septmber 2015:</i> Danish Cleantech Group
+Position: Lead Consultant: Solar Project Sales<br>
+                                                <i>March 2012 to September 2014:</i> Chloride Exide (K) Ltd,
+Position: Regional Sales & Service Engineer<br>
+
+                                                <i>August 2010 to February 2012:</i> Avery EA Ltd,
+Position-Regional Technical Sales and Service Manager-Coastal Region<br>
+                                                <i>Sept 2009 July 2010:</i> Flow Controls Ltd,
+Position: Maintenance &Sales Engineer<br>
+
+                                            </p>
 
                                         </span>
 
@@ -72,11 +101,13 @@ conservation.
                     </div>
 
                     <div class="row">
-                        <div class="col-lg-4">
-                            <img src="{{url('img/chesire.jpg')}}" class="img-responsive"
-                                 style="border-radius: 50px;">
+                        <div class="row">
+                            <div class="col-md-4 col-xs-12 col-sm-6 col-md-offset-4 col-sm-offset-3">
+                                <img src="{{url('img/chesire.jpg')}}" class="img-responsive"
+                                     style="border-radius: 50px;">
+                            </div>
                         </div>
-                        <div class="col-lg-8">
+                        <div class="row">
                             <h4 style="text-align: left">Chesire Kipkemboi Edwin <span>&#8213; Director Finance and Strategy</span></h4>
                             <div class="testimonialslide clearfix flexslider">
                                 <ul class="slides">
