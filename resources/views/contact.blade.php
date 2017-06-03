@@ -22,9 +22,9 @@
                             <div class="row">
                                 <address>
                                     <strong>Sentimental Energy Ltd</strong><br>
-                                    SILKWOOD office suite, <br>
-                                    5th floor,<br>
-                                    Ngong road,<br>
+                                    Nextgen Mall, <br>
+                                    2nd floor,<br>
+                                    Mombasa road,<br>
                                     Nairobi Kenya |<br>
                                 </address>
                                 <p>
@@ -83,8 +83,7 @@
                     <hr class="colorgraph">
                 </div>
                 <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7908872309586!2d36.78152481420182!3d-1.300310799051592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f109dc48adf17%3A0x57fb802bea17ab0d!2sSilkwood+Office+Suites!5e0!3m2!1sen!2ske!4v1490219624554" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.013527792951!2d36.8438775!3d-1.3238323!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9dacf93424a76a51!2sNextgen+Mall!5e0!3m2!1sen!2s!4v1496496079732" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>                </div>
             </div>
             <div class="col-lg-4">
                 @include('partials.sidebar')
