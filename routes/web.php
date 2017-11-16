@@ -22,6 +22,42 @@ Route::get('portfolio', function () {
     return view('portfolio');
 });
 
+
+
+
+
+
+
+
+Route::get('portfolio/solar-in-turkana', function () {
+    return view('projects/pages/turkana');
+});
+
+Route::get('portfolio/5kva-in-kakamega', function () {
+    return view('projects/pages/kakamega');
+});
+
+Route::get('portfolio/loresho-lighting', function () {
+    return view('projects/pages/kakamega');
+});
+
+Route::get('portfolio/water-heating-kisumu', function () {
+    return view('projects/pages/kisumu');
+});
+
+Route::get('portfolio/power-for-mariakani', function () {
+    return view('projects/pages/mariakani');
+});
+
+Route::get('portfolio/3kv-residential', function () {
+    return view('projects/pages/3residential');
+});
+
+
+
+
+
+
 //Route::post('sendmessage', 'HomeController@social');
 
 Route::get('the-pv-module', function () {
