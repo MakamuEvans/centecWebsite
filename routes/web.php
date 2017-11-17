@@ -52,6 +52,15 @@ Route::get('portfolio/power-for-mariakani', function () {
 Route::get('portfolio/3kv-residential', function () {
     return view('projects/pages/3residential');
 });
+Route::get('portfolio/Water-heating-system-at-chefwest-hotel', function () {
+    return view('projects/pages/busia');
+});
+Route::get('portfolio/2400l-swh-systems-at-rvtti', function () {
+    return view('projects/pages/riftvalley');
+});
+Route::get('portfolio/cid-installation', function () {
+    return view('projects/pages/cid');
+});
 
 
 

@@ -9,14 +9,20 @@
         <div class="col-md-12" style="background-color: green">
             <hr>
             <div class="col-md-4" style="color: white">
-                SILKWOOD office suite, <br>
-                5th floor,<br>
-                Ngong road,<br>
-                Nairobi Kenya |<br>
+                <div class="row">
+                    <address>
+                        <strong>Sentimental Energy Ltd</strong><br>
+                        Nextgen Mall, <br>
+                        2nd floor,<br>
+                        Mombasa road,<br>
+                        Nairobi Kenya |<br>
+                    </address>
+                    <p>
+                        <a href="mailto:info@sentecltd.com">info@sentecltd.com</a> |<br>
 
-                <a href="mailto:info@sentecltd.com">info@sentecltd.com</a> |<br>
-
-                +254-725 445459 , 0738261640, +254-723696146
+                        +254-725 445459 , 0738261640, +254-723696146
+                    </p>
+                </div>
             </div>
             <div class="col-md-4">
                 <div class="row">

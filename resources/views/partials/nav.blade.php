@@ -1,4 +1,4 @@
-<div class="navbar navbar-default navbar-static-top" style="background-color: green">
+<div class="navbar navbar-default navbar-static-top" style="background-color: yellow">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -10,15 +10,15 @@
         </div>
         <div class="navbar-collapse collapse ">
             <ul class="nav navbar-nav">
-                <li><a style="" href="{{url('/')}}"><i class="fa fa-home"> </i> Home</a></li>
+                <li><a style="color: green" href="{{url('/')}}"><i class="fa fa-home"> </i> Home</a></li>
                 <li><a style="" href="{{url('partners')}}"><i class="fa fa-handshake-o"></i> Our Partners</a></li>
                 <li><a style="" href="{{url('products-and-services')}}"><i class="fa fa-sun-o"></i> Products and Services</a></li>
                 <li><a style="" href="{{url('/portfolio')}}"><i class="fa fa-briefcase"></i> Portfolio</a></li>
                 <li class="dropdown"><a  style="" href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false"><i class="fa fa-book"></i> Solar Explained<i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu">
-                        <li><a style="background-color: green" href="{{url('why-go-solar')}}"><i class="fa fa-check"></i> Why go Solar</a></li>
-                        <li><a style="background-color: green" href="{{url('how-solar-works')}}"><i class="fa fa-check"></i> How Solar Works</a></li>
-                        <li><a style="background-color: green" href="{{url('the-pv-module')}}"><i class="fa fa-check"></i> The PV System</a></li>
+                        <li><a style="background-color: orange" href="{{url('why-go-solar')}}"><i class="fa fa-check"></i> Why go Solar</a></li>
+                        <li><a style="background-color: orange" href="{{url('how-solar-works')}}"><i class="fa fa-check"></i> How Solar Works</a></li>
+                        <li><a style="background-color: orange" href="{{url('the-pv-module')}}"><i class="fa fa-check"></i> The PV System</a></li>
                     </ul>
                 </li>
                 <li><a style="" href="{{url('/our-team')}}"><i class="fa fa-user"></i> Our Team</a></li>

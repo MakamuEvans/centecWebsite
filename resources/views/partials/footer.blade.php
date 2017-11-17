@@ -1,4 +1,4 @@
-<footer>
+<footer style="background-color: yellow">
     <div class="container">
         <div class="row" style="text-align: center">
             {{--<div class="col-sm-3 col-lg-3">
@@ -75,19 +75,20 @@
             <div class="col-sm-4 col-lg-4">
                 <hr>
                 <div class="widget">
-                    <h4>Get in touch with us</h4>
-                    <address>
-                        <strong>Sentimental Energy Ltd</strong><br>
-                        SILKWOOD office suite, <br>
-                        5th floor,<br>
-                        Ngong road,<br>
-                        Nairobi Kenya |<br>
-                    </address>
-                    <p>
-                        <a href="mailto:info@sentecltd.com">info@sentecltd.com</a> |<br>
+                    <div class="row">
+                        <address>
+                            <strong>Sentimental Energy Ltd</strong><br>
+                            Nextgen Mall, <br>
+                            2nd floor,<br>
+                            Mombasa road,<br>
+                            Nairobi Kenya |<br>
+                        </address>
+                        <p>
+                            <a href="mailto:info@sentecltd.com">info@sentecltd.com</a> |<br>
 
-                        +254-725 445459 , 0738261640, +254-723696146
-                    </p>
+                            +254-725 445459 , 0738261640, +254-723696146
+                        </p>
+                    </div>
                 </div>
             </div>
             <div class="col-sm-4 col-lg-4">

@@ -12,7 +12,7 @@
     display: none;
 }
 ul.nav.navbar-nav li a{
-    color: yellow !important;
+    color: green !important;
 }
 ul.nav.navbar-nav li a:hover{
     color: white !important;

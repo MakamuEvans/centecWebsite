@@ -34,6 +34,30 @@
                             <div class="col-md-5 portifolio">
                                 <div class="img">
                                     <div class="">
+                                        <img src="img/cid.jpg" class="img-responsive" alt=""/>
+                                    </div>
+
+                                </div>
+                                <div class="cbp-l-grid-projects-title">Solar Power Installation at CID</div>
+                                <a class="readmore pull-right" style="cursor: pointer" href="{{url('portfolio/cid-installation')}}">Read More <i class="fa fa-angle-right"></i></a>
+
+
+                            </div>
+                            <div class="col-md-5 portifolio">
+                                <div class="img">
+                                    <div class="">
+                                        <img src="img/busia.jpg" class="img-responsive" alt=""/>
+                                    </div>
+
+                                </div>
+                                <div class="cbp-l-grid-projects-title">Water heating System at ChefWest Hotel</div>
+                                <a class="readmore pull-right" style="cursor: pointer" href="{{url('portfolio/Water-heating-system-at-chefwest-hotel')}}">Read More <i class="fa fa-angle-right"></i></a>
+
+
+                            </div>
+                            <div class="col-md-5 portifolio">
+                                <div class="img">
+                                    <div class="">
                                         <img src="img/mariakani.jpg" class="img-responsive" alt=""/>
                                     </div>
 
@@ -68,6 +92,17 @@
                             <div class="col-md-5 portifolio">
                                 <div class="">
                                     <div class="img">
+                                        <img src="img/rv.jpg" class="img-responsive" alt=""/>
+                                    </div>
+
+                                </div>
+                                <div class="cbp-l-grid-projects-title">2400l swh systems at Rift Valley Technical Training Institute</div>
+                                <a href="{{url('portfolio/2400l-swh-systems-at-rvtti')}}" class="readmore pull-right"
+                                   style="cursor: pointer">Read More <i class="fa fa-angle-right"></i></a>
+                            </div>
+                            <div class="col-md-5 portifolio">
+                                <div class="">
+                                    <div class="img">
                                         <img src="img/riara.jpg" class="img-responsive" alt=""/>
                                     </div>
 
@@ -79,35 +114,13 @@
                             <div class="col-md-5 portifolio">
                                 <div class="">
                                     <div class="img">
-                                        <img src="" class="img-responsive" alt="Images coming soon"/>
-                                    </div>
-
-                                </div>
-                                <div class="cbp-l-grid-projects-title">600wp residential unit</div>
-
-
-                            </div>
-                            <div class="col-md-5 portifolio">
-                                <div class="">
-                                    <div class="img">
                                         <img src="img/ksm.jpeg" class="img-responsive" alt=""/>
                                     </div>
 
                                 </div>
-                                <div class="cbp-l-grid-projects-title">1000kw Water Heating Kisumu<span
-                                            class="highlight">...in Progress</span></div>
+                                <div class="cbp-l-grid-projects-title">1000kw Water Heating Kisumu</div>
                                 <a href="{{url('portfolio/water-heating-kisumu')}}" class="readmore pull-right"
                                    style="cursor: pointer">Read More <i class="fa fa-angle-right"></i></a>
-                            </div>
-                            <div class="col-md-5 portifolio">
-                                <div class="">
-                                    <div class="img">
-                                        <img src="" class="img-responsive" alt="Images coming soon"/>
-                                    </div>
-
-                                </div>
-                                <div class="cbp-l-grid-projects-title">2.25kwp for race feld academy in mwingi <span
-                                            class="highlight">...in Progress</span></div>
                             </div>
                         </div>
                     </div>
